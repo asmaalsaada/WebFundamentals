@@ -1,0 +1,150 @@
+.container{
+    width: 970px;
+    height: 800px;
+    background-color: #245076;
+    margin: 2px;
+}
+header{
+    width: 970px;
+    height: 90px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logoPic img{ 
+    width: 300px;
+    margin:20px 300px 20px 20px;
+}
+.searchBar{
+    align-items: center;
+    text-align: end;
+    color: #fefeff;
+    margin: 20px;
+    padding: 5px;
+}
+span a{
+    color: #d5b300;
+}
+form{
+    width: 260px;
+    height: 30px;
+    border: 1px solid #1f2020;
+    background-color: #444444;
+    color: #b2b2b2;
+    border-radius:15px;
+    padding:20px;
+    box-shadow: 2px 2px #353535;
+}
+input{
+    border-color: #eeeeee;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+button{
+    color: #fcfcfd;
+    background-color: #245076;
+    border-radius: 5px;
+    height: 30px;
+    width: 38px;
+}
+nav ul{
+    align-content: center;
+    background-color: #477ead;
+    border-radius: 10px;
+    box-shadow: 2px 2px #353535;
+    display: flex;
+    height: 50px;
+    list-style-type: none;
+    margin: 30px 20px 10px 80px;
+    justify-content: space-evenly;
+    width: 800px;
+}
+nav li a{
+    padding: 15px;
+    color: #fafbfd;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    line-height: 50px;
+}
+.mainContent{
+    display: flex;
+    margin: 10px;
+    width:800px;
+}
+aside{
+    text-align: center;
+}
+aside ul{
+    width: 200px;
+    list-style-type: none;
+    color: #fad829;
+    padding: 20px;
+
+}
+aside a{
+    color: #fafbfd;
+    font-size:20px;
+    padding: 15px;
+
+}
+article{
+    display: inline-block;
+    text-align: center;
+}
+article p{
+    color: white;
+    width: 700px;
+}
+article span{
+    color: #fad829;
+    font-size: x-large;
+    width:300px;
+}
+.subContent{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 240px;
+    width: 970px;
+    text-align: center;
+
+}
+hr{
+    background-color: #639dd0;
+    width: 300px;
+    height: 3px;
+}
+
+.subContent ul{
+    list-style-type: none;
+    color: black;
+    text-align: justify;
+
+}
+.col1 a, .col2 a{
+    text-decoration: none;
+    color: #98bde0;
+}
+footer{
+    background-image: linear-gradient(#275984, #2d6496,#306fa4);
+    height:70px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    color: #98bde0;
+    text-align: center;
+}
+.upperFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.lowerFooter{
+    font-size: small;
+    padding-bottom: 5px;
+}

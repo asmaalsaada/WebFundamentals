@@ -1,0 +1,20 @@
+SELECT *
+FROM users
+WHERE first_name LIKE "%e"
+ORDER BY birthday DESC;
+
+
+SELECT *
+FROM users
+LIMIT 3;
+
+INSERT INTO --table_name--(tweets) --(column_name1, column_name2)--  ('id','tweet')
+VALUES('17','yahoo');
+
+UPDATE tweets SET tweet = 'hey', created_at='2002-02-02'
+
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM tweets WHERE id=8;
+
+

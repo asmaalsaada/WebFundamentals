@@ -1,0 +1,21 @@
+// make a directory 
+mkdir test 
+// make a new file 
+touch index.html 
+touch style.css 
+// make a new directory
+mkdir : destination
+// copy a file 
+cp index.html index2.html 
+// move a file 
+mv index2.html ~/destinstion.
+// remove a file style.css
+rm style.css
+//remove a directory 
+rmdir destination
+//list files 
+ls test
+ls destination
+
+
+

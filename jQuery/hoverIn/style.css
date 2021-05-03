@@ -1,0 +1,43 @@
+main{
+    background-color: antiquewhite;
+    width: 850px;
+    height: 400px;
+    margin: 10px auto;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header form {
+    width: 900px;
+    height: 30px;
+    margin: 10px 80px ; 
+    padding: 30px;
+    justify-content: space-between;
+    align-content:space-between;
+    
+}
+section{
+    display: inline-block;
+    padding: 10px auto 10px auto;
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    margin:10px 0 10px 0;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    background-color: grey;
+}
+
+

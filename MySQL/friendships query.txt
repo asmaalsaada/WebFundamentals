@@ -1,0 +1,28 @@
+// to get the table about users and their friends
+select users.first_name, users.last_name, user2.first_name as friend_f_name, user2.last_name  as friend_l_name
+from users 
+left join friendships on users.id = friendships.user_id 
+left join users as user2
+on user2.id = friendships.friend_id;
+
+//1st query 
+select users.first_name as friend_f_name, users.last_name as  friend_last_name
+from friendships
+inner join users on friendships.user_id= users.id
+where friendships.friend_id = 4;
+
+//2nd query 
+SELECT COUNT(friendships.friend_id)
+FROM friendships;
+//output = 6
+
+
+
+
+//5th query
+INSERT INTO users (users.id, users.first_name, users.last_name, users.created_at) 
+VALUES('7', 'Jake', 'Peralta','2021-05-01'); 
+
+
+
+
